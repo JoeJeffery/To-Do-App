@@ -9,7 +9,7 @@ def add_todo():
     functions.write_todos(todos)
 
 st.title("Joe's Reminder App")
-st.write("Increase productivity by tracking task")
+st.write("Increase productivity by tracking tasks")
 
 for index, todo in enumerate(todos):
     checkbox = st.checkbox(todo, key=todo)
